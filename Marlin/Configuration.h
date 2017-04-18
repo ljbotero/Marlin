@@ -846,10 +846,10 @@
  *   With an LCD controller the process is guided step-by-step.
  */
 //#define AUTO_BED_LEVELING_3POINT
-//#define AUTO_BED_LEVELING_LINEAR
+#define AUTO_BED_LEVELING_LINEAR // JAIME: Enabled if using Z-Probe
 //#define AUTO_BED_LEVELING_UBL
 //#define MESH_BED_LEVELING
-#define AUTO_BED_LEVELING_BILINEAR // JAIME: Enabled if using Z-Probe
+//#define AUTO_BED_LEVELING_BILINEAR
 
 /**
  * Enable detailed logging of G28, G29, M48, etc.
